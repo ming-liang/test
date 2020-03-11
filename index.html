@@ -1,1 +1,66 @@
-主题为什么无效
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>百度一下，你就知道了</title>
+        <style>
+            .wrapper{
+                width: 40%;
+                margin: 0px auto;
+                height:30px;
+                border:1px solid blue ;
+
+            }
+            .wrapper .imge{
+                float: right;
+              background-image: url("camera.png");
+                background-repeat:no-repeat;
+                height: 16px;
+                width: 18px;
+                margin: 5px 10px;
+                cursor:pointer;
+                color: blue;
+            }
+            .input-search{
+                width: 90%;
+                height:28px;
+                border: none;
+                outline:none;
+            }
+            .input-submit{
+                width: 10%;
+                height:30px;
+                padding: 0;
+                border: none;
+                background-color: blue;
+                cursor:pointer;
+            }
+            .left{
+                float:left;
+                width: 90%;
+            }
+
+        </style>
+    </head>
+    <body>
+    <p align="right">
+        <font color="red" size="4"><b>抗击肺炎</b></font>
+        <b><font color="blue" size="3">新闻</font></b>
+    hao123
+    地图
+    视频
+    贴吧
+    学术
+    百度用户
+    </p>
+    <p align="center">
+        <img src="bd.png" width="270" height="129">
+    </p>
+    <form action="http://www.baidu.com/s" target="_blank">
+        <div class="wrapper">
+        <div class="left"><input type="text" name="q" class="input-search"><span class="imge"></span></div>
+        <input type="submit" value="百度一下" class="input-submit">
+        </div>
+    </form>
+    </body>
+</html>
